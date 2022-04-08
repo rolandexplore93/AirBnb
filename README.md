@@ -1,5 +1,5 @@
-# AirBnb-clone
-> AirBnb-clone is a single static page e-commerce app template that display sellers' items on the status of the product whether it is sold out or still available in store.
+# AirBnb
+> AirBnb is a single static page e-commerce app template that display sellers' items on the status of the product whether it is sold out or still available in store.
 
 ## Built With
 - Reactjs
@@ -16,9 +16,9 @@
 ## Getting Started?
 The following step will help you get the local copy of this project and run seamlessly on your device
 
-`git clone git@github.com:rolandexplore93/AirBnb-clone/.git`
+`git clone git@github.com:rolandexplore93/AirBnb/.git`
 
-Next: `cd AirBnb-clone`
+Next: `cd AirBnb`
 
 Then `npm install` to install packages
 
