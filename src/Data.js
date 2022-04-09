@@ -4,7 +4,7 @@
         title: "Life Lessons with Katie Zaferes",
         description: "I will share with you what I call \"Positively Impactful Moments of Disappointment.\" Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.",
         price: 136,
-        coverImg: "katie-zaferes.png",
+        coverImg: "zaferes.png",
         stats: {
             rating: 5.0,
             reviewCount: 6
@@ -37,6 +37,32 @@
         },
         location: "Norway",
         openSpots: 3,
+    },
+    {
+        id: 4,
+        title: "Messi Jersey",
+        description: "Experience the beautiful of Greatness in representing the greatest footballer",
+        price: 550,
+        coverImg: "messi-jersey.png",
+        stats: {
+            rating: 4.95,
+            reviewCount: 10
+        },
+        location: "Online",
+        openSpots: 0,
+    },
+    {
+        id: 5,
+        title: "Apple Laptop Customized with Argentina Wallpaper",
+        description: "Quality and specification-rich laptop from Apple",
+        price: 1550,
+        coverImg: "macbookpro.jpg",
+        stats: {
+            rating: 4.9,
+            reviewCount: 12
+        },
+        location: "Online",
+        openSpots: 31,
     }
 ]
 
