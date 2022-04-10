@@ -1,15 +1,15 @@
  const Data = [
     {
         id: 1,
-        title: "Life Lessons with Katie Zaferes",
-        description: "I will share with you what I call \"Positively Impactful Moments of Disappointment.\" Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.",
-        price: 136,
-        coverImg: "zaferes.png",
+        title: "Messi Jersey",
+        description: "Experience the beautiful of Greatness in representing the greatest footballer",
+        price: 550,
+        coverImg: "messi-jersey.png",
         stats: {
-            rating: 5.0,
-            reviewCount: 6
+            rating: 4.95,
+            reviewCount: 10
         },
-        location: "Online",
+        location: "Available",
         openSpots: 0,
     },
     {
@@ -22,7 +22,7 @@
             rating: 5.0,
             reviewCount: 30
         },
-        location: "Online",
+        location: "Available",
         openSpots: 27,
     },
     {
@@ -35,24 +35,12 @@
             rating: 4.8,
             reviewCount: 2
         },
-        location: "Norway",
+        location: "Available",
         openSpots: 3,
     },
+    
     {
         id: 4,
-        title: "Messi Jersey",
-        description: "Experience the beautiful of Greatness in representing the greatest footballer",
-        price: 550,
-        coverImg: "messi-jersey.png",
-        stats: {
-            rating: 4.95,
-            reviewCount: 10
-        },
-        location: "Online",
-        openSpots: 0,
-    },
-    {
-        id: 5,
         title: "Apple Laptop Customized with Argentina Wallpaper",
         description: "Quality and specification-rich laptop from Apple",
         price: 1550,
@@ -61,9 +49,22 @@
             rating: 4.9,
             reviewCount: 12
         },
-        location: "Online",
+        location: "Available",
         openSpots: 31,
-    }
+    },
+    {
+        id: 5,
+        title: "Life Lessons with Katie Zaferes",
+        description: "I will share with you what I call \"Positively Impactful Moments of Disappointment.\" Throughout my career, many of my highest moments only came after setbacks and losses. But learning from those difficult moments is what gave me the ability to rise above them and reach my goals.",
+        price: 136,
+        coverImg: "zaferes.png",
+        stats: {
+            rating: 5.0,
+            reviewCount: 6
+        },
+        location: "Available",
+        openSpots: 0,
+    },
 ]
 
 export default Data

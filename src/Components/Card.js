@@ -6,7 +6,7 @@ function Card(props) {
         {props.openSpots === 0 ?
             <div className='card--badge sold-out'>SOLD OUT</div> 
             : 
-            <div className='card--badge available'>AVAILABLE</div> 
+            <div className='card--badge available'>{props.location}</div> 
         }
         <img src={require(`../images/${props.img}`)} alt='productdisplay' className='card--image'/>
         <h4 className="card--title">{props.title}</h4>
@@ -18,6 +18,7 @@ function Card(props) {
         </div>
         <p className="card--description">Description: {props.description}</p>
         <p className="card--price"><span className="bold">From ${props.price}</span> / person</p>
+        <button>Order</button>
     </div>
   )
 }
