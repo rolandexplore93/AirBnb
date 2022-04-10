@@ -1,6 +1,7 @@
 import React from 'react'
 
 function Card(props) {
+    document.title = "AirBnb Stores"
 
     const handleOrder = () => {
         props.openSpots === 0 ? alert(`${props.title} is out of stock!😞`) 
