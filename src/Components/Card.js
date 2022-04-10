@@ -1,6 +1,13 @@
 import React from 'react'
 
 function Card(props) {
+
+    const handleOrder = () => {
+        props.openSpots === 0 ? alert(`${props.title} is out of stock!😞`) 
+        : 
+        alert(`Your order (${props.title}) is in process🤗`)
+    }
+    
   return (
     <div className='card'>
         {props.openSpots === 0 ?
@@ -18,7 +25,7 @@ function Card(props) {
         </div>
         <p className="card--description">Description: {props.description}</p>
         <p className="card--price"><span className="bold">From ${props.price}</span> / person</p>
-        <button>Order</button>
+        <button onClick={() => {handleOrder()}}>Order</button>
     </div>
   )
 }
