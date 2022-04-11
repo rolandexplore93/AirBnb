@@ -12,7 +12,7 @@ function Card(props) {
   return (
     <div className='card'>
         {props.openSpots === 0 ?
-            <div className='card--badge sold-out'>SOLD OUT</div> 
+            <div className='card--badge sold-out'>SOLD OUT!</div> 
             : 
             <div className='card--badge available'>{props.location}</div> 
         }
