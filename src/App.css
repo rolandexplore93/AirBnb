@@ -14,6 +14,8 @@ body {
   /* border: 1px solid red; */
   margin: 0 auto;
   background: #fff;
+  margin-top: 20px;
+
 }
 
 .App-logo {
@@ -78,15 +80,19 @@ section {
   display: flex;
   flex-direction: column;
   text-align: center;
+  width: 100%;
 }
 
 .hero--photo {
-  max-width: 400px;
+  width: inherit;
   align-self: center;
 }
 
 .hero--header {
   margin-bottom: 16px;
+  width: inherit;
+  overflow-wrap: break-word;
+  margin-top: 40px;
 }
 
 .hero--text {
